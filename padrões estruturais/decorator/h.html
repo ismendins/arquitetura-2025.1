@@ -1,0 +1,38 @@
+<script>
+
+    var cargo = Number(prompt("A patente do carro é: 1, 2, 3, 4 ou 5"));
+    var sal = Number(prompt("O salario recebido é:"));
+    var salfin;
+    
+    switch (cargo){
+             case 1:
+               cargo = 1;
+               salfin = sal * 0.1;
+               console.log("O salario com a bonifição é:" + salfin.toFixed(2));
+               break;
+              case 2:
+               cargo = 2;
+               salfin = sal * 0.2;
+               console.log("O salario com a bonifição é:" + salfin.toFixed(2));
+             break;
+             case 3:
+               cargo = 3;
+               salfin = sal * 0.3;
+                console.log("O salario com a bonifição é:" + salfin.toFixed(2));
+                break;
+             case 4:
+               cargo = 4;
+               salfin = sal * 0.4;
+               console.log("O salario com a bonifição é:" + salfin.toFixed(2));
+               break;
+             case 5:
+               cargo = 5;
+               salfin = sal * 0.5;
+               console.log("O salario com a bonifição é:" + salfin.toFixed(2));
+               break;
+              default
+               salfin = 0 * 0
+              console.log("Cargo não encontrado");
+    }
+
+</script>
